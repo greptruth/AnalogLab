@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.13)  28 JAN 2016 02:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.13)  28 JAN 2016 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -161,19 +161,19 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
  (./expt2.aux)
 \openout1 = `expt2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 66.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -240,39 +240,30 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 81.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 80.
 
-
-LaTeX Warning: No \author given.
-
+! Undefined control sequence.
+<recently read> \normalize 
+                           
+l.80 \maketitle
+               
+? R
+OK, entering \nonstopmode...
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 95.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 94.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 95.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
 
+<ckt.jpg, id=1, 365.365pt x 399.4925pt>
+File: ckt.jpg Graphic file (type jpg)
+ <use ckt.jpg>
+Package pdftex.def Info: ckt.jpg used on input line 113.
+(pdftex.def)             Requested size: 365.3641pt x 399.49152pt.
 
-LaTeX Warning: File `ckt.jpg' not found on input line 114.
-
-
-! Package pdftex.def Error: File `ckt.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 \includegraphics{ckt.jpg}
-                               
-? R
-OK, entering \nonstopmode...
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 114.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
 
 ! LaTeX Error: \caption outside float.
 
@@ -280,7 +271,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115   \caption
+l.114   \caption
                 {Circuit diagram}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -289,122 +280,155 @@ If that doesn't work, type  X <return>  to quit.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
 
 ! Double subscript.
 <argument>  V$_o_
-                 u_t$ vs V$_i_n$ for R$_D$=
-l.121 ...section{ V$_o_u_t$ vs V$_i_n$ for R$_D$=}
+                 u_t$ vs V$_i_n$ for R$_D$=2.54k\Omega 
+l.120 ..._o_u_t$ vs V$_i_n$ for R$_D$=2.54k\Omega}
                                                   
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument>  V$_o_u_
-                   t$ vs V$_i_n$ for R$_D$=
-l.121 ...section{ V$_o_u_t$ vs V$_i_n$ for R$_D$=}
+                   t$ vs V$_i_n$ for R$_D$=2.54k\Omega 
+l.120 ..._o_u_t$ vs V$_i_n$ for R$_D$=2.54k\Omega}
                                                   
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument>  V$_o_u_t$ vs V$_i_
-                              n$ for R$_D$=
-l.121 ...section{ V$_o_u_t$ vs V$_i_n$ for R$_D$=}
+                              n$ for R$_D$=2.54k\Omega 
+l.120 ..._o_u_t$ vs V$_i_n$ for R$_D$=2.54k\Omega}
                                                   
 I treat `x_1_2' essentially like `x_1{}_2'.
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.120 ..._o_u_t$ vs V$_i_n$ for R$_D$=2.54k\Omega}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.120 ..._o_u_t$ vs V$_i_n$ for R$_D$=2.54k\Omega}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 ! Double subscript.
-l.125  V$_o_
+l.124  V$_o_
             u_t$(V) &  V$_i_n$(V)\\ [0.5ex]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.125  V$_o_u_
+l.124  V$_o_u_
               t$(V) &  V$_i_n$(V)\\ [0.5ex]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.125  V$_o_u_t$(V) &  V$_i_
+l.124  V$_o_u_t$(V) &  V$_i_
                             n$(V)\\ [0.5ex]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
+[2 <./ckt.jpg>]
 ! Double subscript.
 <argument> V$_o_
-                u_t$ vs V$_i_n$ for R$_D$=
-l.206 \subsection{V$_o_u_t$ vs V$_i_n$ for R$_D$=}
+                u_t$ vs V$_i_n$ for R$_D$=4.9k\Omega 
+l.205 ...$_o_u_t$ vs V$_i_n$ for R$_D$=4.9k\Omega}
                                                   
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> V$_o_u_
-                  t$ vs V$_i_n$ for R$_D$=
-l.206 \subsection{V$_o_u_t$ vs V$_i_n$ for R$_D$=}
+                  t$ vs V$_i_n$ for R$_D$=4.9k\Omega 
+l.205 ...$_o_u_t$ vs V$_i_n$ for R$_D$=4.9k\Omega}
                                                   
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> V$_o_u_t$ vs V$_i_
-                             n$ for R$_D$=
-l.206 \subsection{V$_o_u_t$ vs V$_i_n$ for R$_D$=}
+                             n$ for R$_D$=4.9k\Omega 
+l.205 ...$_o_u_t$ vs V$_i_n$ for R$_D$=4.9k\Omega}
                                                   
 I treat `x_1_2' essentially like `x_1{}_2'.
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.205 ...$_o_u_t$ vs V$_i_n$ for R$_D$=4.9k\Omega}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.205 ...$_o_u_t$ vs V$_i_n$ for R$_D$=4.9k\Omega}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 ! Double subscript.
-l.210  V$_o_
+l.209  V$_o_
             u_t$(V) &  V$_i_n$(V)\\ [0.5ex]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.210  V$_o_u_
+l.209  V$_o_u_
               t$(V) &  V$_i_n$(V)\\ [0.5ex]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.210  V$_o_u_t$(V) &  V$_i_
-                            n$(V)\\ [0.5ex]
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-[2]
-! Double subscript.
-<argument> V$_o_
-                u_t$ vs V$_i_n$ for coupled FETs
-l.282 ...on{V$_o_u_t$ vs V$_i_n$ for coupled FETs}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> V$_o_u_
-                  t$ vs V$_i_n$ for coupled FETs
-l.282 ...on{V$_o_u_t$ vs V$_i_n$ for coupled FETs}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> V$_o_u_t$ vs V$_i_
-                             n$ for coupled FETs
-l.282 ...on{V$_o_u_t$ vs V$_i_n$ for coupled FETs}
-                                                  
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-l.286  V$_o_
-            u_t$(V) &  V$_i_n$(V)\\ [0.5ex]
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-l.286  V$_o_u_
-              t$(V) &  V$_i_n$(V)\\ [0.5ex]
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-l.286  V$_o_u_t$(V) &  V$_i_
+l.209  V$_o_u_t$(V) &  V$_i_
                             n$(V)\\ [0.5ex]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 [3]
+! Double subscript.
+<argument> V$_o_
+                u_t$ vs V$_i_n$ for coupled NMOS
+l.281 ...on{V$_o_u_t$ vs V$_i_n$ for coupled NMOS}
+                                                  
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> V$_o_u_
+                  t$ vs V$_i_n$ for coupled NMOS
+l.281 ...on{V$_o_u_t$ vs V$_i_n$ for coupled NMOS}
+                                                  
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+<argument> V$_o_u_t$ vs V$_i_
+                             n$ for coupled NMOS
+l.281 ...on{V$_o_u_t$ vs V$_i_n$ for coupled NMOS}
+                                                  
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.285  V$_o_
+            u_t$(V) &  V$_i_n$(V)\\ [0.5ex]
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.285  V$_o_u_
+              t$(V) &  V$_i_n$(V)\\ [0.5ex]
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.285  V$_o_u_t$(V) &  V$_i_
+                            n$(V)\\ [0.5ex]
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+[4]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.358 \subsection*{Plot of V_o_u_t vs V_i_n}
+l.357 \subsection*{Plot of V_o_u_t vs V_i_n}
                                             
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -412,47 +436,47 @@ you left one out. Proceed, with fingers crossed.
 ! Double subscript.
 <argument> Plot of V_o_
                        u_t vs V_i_n
-l.358 \subsection*{Plot of V_o_u_t vs V_i_n}
+l.357 \subsection*{Plot of V_o_u_t vs V_i_n}
                                             
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> Plot of V_o_u_
                          t vs V_i_n
-l.358 \subsection*{Plot of V_o_u_t vs V_i_n}
+l.357 \subsection*{Plot of V_o_u_t vs V_i_n}
                                             
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> Plot of V_o_u_t vs V_i_
                                   n
-l.358 \subsection*{Plot of V_o_u_t vs V_i_n}
+l.357 \subsection*{Plot of V_o_u_t vs V_i_n}
                                             
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.358 \subsection*{Plot of V_o_u_t vs V_i_n}
+l.357 \subsection*{Plot of V_o_u_t vs V_i_n}
                                             
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<data.png, id=20, 526.96875pt x 266.49562pt>
+<data.png, id=23, 526.96875pt x 266.49562pt>
 File: data.png Graphic file (type png)
  <use data.png>
-Package pdftex.def Info: data.png used on input line 360.
+Package pdftex.def Info: data.png used on input line 359.
 (pdftex.def)             Requested size: 526.96745pt x 266.49496pt.
 
-Overfull \hbox (71.72337pt too wide) in paragraph at lines 360--361
+Overfull \hbox (71.72337pt too wide) in paragraph at lines 359--360
  [] 
  []
 
-[4]
+[5]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.363 \subsection*{Gain versus V_i_n }
+l.362 \subsection*{Gain versus V_i_n }
                                       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -460,150 +484,239 @@ you left one out. Proceed, with fingers crossed.
 ! Double subscript.
 <argument> Gain versus V_i_
                            n 
-l.363 \subsection*{Gain versus V_i_n }
+l.362 \subsection*{Gain versus V_i_n }
                                       
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.363 \subsection*{Gain versus V_i_n }
+l.362 \subsection*{Gain versus V_i_n }
                                       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<gain_correct.png, id=25, 526.96875pt x 255.20343pt>
+<gain_correct.png, id=28, 526.96875pt x 255.20343pt>
 File: gain_correct.png Graphic file (type png)
  <use gain_correct.png>
-Package pdftex.def Info: gain_correct.png used on input line 365.
+Package pdftex.def Info: gain_correct.png used on input line 364.
 (pdftex.def)             Requested size: 526.96745pt x 255.2028pt.
 
-Overfull \hbox (71.72337pt too wide) in paragraph at lines 365--366
+Overfull \hbox (71.72337pt too wide) in paragraph at lines 364--365
  [] 
  []
 
 ! Double subscript.
 <argument> Gain versus V$_i_
                             n$ with moving average 
-l.368 ...Gain versus V$_i_n$ with moving average }
+l.367 ...Gain versus V$_i_n$ with moving average }
                                                   
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-[5 <./data.png (PNG copy)> <./gain_correct.png (PNG copy)>]
-<gain_moving_avg.png, id=29, 526.96875pt x 255.20343pt>
+[6 <./data.png (PNG copy)> <./gain_correct.png (PNG copy)>]
+<gain_moving_avg.png, id=32, 526.96875pt x 255.20343pt>
 File: gain_moving_avg.png Graphic file (type png)
 
 <use gain_moving_avg.png>
-Package pdftex.def Info: gain_moving_avg.png used on input line 371.
+Package pdftex.def Info: gain_moving_avg.png used on input line 370.
 (pdftex.def)             Requested size: 526.96745pt x 255.2028pt.
 
-Overfull \hbox (71.72337pt too wide) in paragraph at lines 371--372
+Overfull \hbox (71.72337pt too wide) in paragraph at lines 370--371
  [] 
  []
 
-<stem1.png, id=30, 526.96875pt x 266.49562pt>
+! Missing $ inserted.
+<inserted text> 
+                $
+l.373 ...amplifier response for R$_D$=1.54k\Omega}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.373 ...amplifier response for R$_D$=1.54k\Omega}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+<stem1.png, id=33, 526.96875pt x 266.49562pt>
 File: stem1.png Graphic file (type png)
  <use stem1.png>
-Package pdftex.def Info: stem1.png used on input line 376.
+Package pdftex.def Info: stem1.png used on input line 375.
 (pdftex.def)             Requested size: 526.96745pt x 266.49496pt.
 
-Overfull \hbox (71.72337pt too wide) in paragraph at lines 376--377
+Overfull \hbox (71.72337pt too wide) in paragraph at lines 375--376
  [] 
  []
 
-[6 <./gain_moving_avg.png (PNG copy)>]
-<stem2.png, id=34, 526.96875pt x 266.49562pt>
+[7 <./gain_moving_avg.png (PNG copy)>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.378 ...mplifier response for R$_D$=4.59k\Omega }
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.378 ...mplifier response for R$_D$=4.59k\Omega }
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+<stem2.png, id=38, 526.96875pt x 266.49562pt>
 File: stem2.png Graphic file (type png)
  <use stem2.png>
-Package pdftex.def Info: stem2.png used on input line 381.
+Package pdftex.def Info: stem2.png used on input line 380.
 (pdftex.def)             Requested size: 526.96745pt x 266.49496pt.
 
-Overfull \hbox (71.72337pt too wide) in paragraph at lines 381--382
+Overfull \hbox (71.72337pt too wide) in paragraph at lines 380--381
  [] 
  []
 
-[7 <./stem1.png (PNG copy)>] <stem3.png, id=39, 526.96875pt x 266.49562pt>
+[8 <./stem1.png (PNG copy)>] <stem3.png, id=42, 526.96875pt x 266.49562pt>
 File: stem3.png Graphic file (type png)
 
 <use stem3.png>
-Package pdftex.def Info: stem3.png used on input line 386.
+Package pdftex.def Info: stem3.png used on input line 385.
 (pdftex.def)             Requested size: 526.96745pt x 266.49496pt.
 
-Overfull \hbox (71.72337pt too wide) in paragraph at lines 386--387
+Overfull \hbox (71.72337pt too wide) in paragraph at lines 385--386
  [] 
  []
 
-[8 <./stem2.png (PNG copy)>]
+[9 <./stem2.png (PNG copy)>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no Ï in font ptmr7t!
 Missing character: There is no Ž in font ptmr7t!
- [9 <./stem3.png (PNG copy)>]
+ [10 <./stem3.png (PNG copy)>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 424.
+
 ! Double subscript.
-l.439 THD$_1_
-             -_>_2$(low->high gain) = 23.27\%
+<argument> THD$_1_
+                  -_>_2$(low$->$high gain) = 24.27
+l.437 ...{THD$_1_-_>_2$(low$->$high gain) = 24.27}
+                                                  \%  \newline
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.439 THD$_1_-_
-               >_2$(low->high gain) = 23.27\%
+<argument> THD$_1_-_
+                    >_2$(low$->$high gain) = 24.27
+l.437 ...{THD$_1_-_>_2$(low$->$high gain) = 24.27}
+                                                  \%  \newline
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.439 THD$_1_-_>_
-                 2$(low->high gain) = 23.27\%
+<argument> THD$_1_-_>_
+                      2$(low$->$high gain) = 24.27
+l.437 ...{THD$_1_-_>_2$(low$->$high gain) = 24.27}
+                                                  \%  \newline
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.440 THD$_2_
-             -_>_1$(high->low gain) = 7.87\%
+<argument> THD$_2_
+                  -_>_1$(high$->$low gain) = 7.92
+l.438 ...f{THD$_2_-_>_1$(high$->$low gain) = 7.92}
+                                                  \% \newline \newline
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.440 THD$_2_-_
-               >_1$(high->low gain) = 7.87\%
+<argument> THD$_2_-_
+                    >_1$(high$->$low gain) = 7.92
+l.438 ...f{THD$_2_-_>_1$(high$->$low gain) = 7.92}
+                                                  \% \newline \newline
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.440 THD$_2_-_>_
-                 1$(high->low gain) = 7.87\%
+<argument> THD$_2_-_>_
+                      1$(high$->$low gain) = 7.92
+l.438 ...f{THD$_2_-_>_1$(high$->$low gain) = 7.92}
+                                                  \% \newline \newline
 I treat `x_1_2' essentially like `x_1{}_2'.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
+
+ []
+
+[11]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-[10]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
 
 
-! LaTeX Error: \begin{itemize} on input line 455 ended by \end{document}.
+! LaTeX Error: \begin{itemize} on input line 453 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.471 \end{document}
+l.469 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[11] (./expt2.aux) )
+[12] (./expt2.aux) )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 455 (\begingroup)
+### semi simple group (level 1) entered at line 453 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2866 strings out of 493304
- 40523 string characters out of 6139871
- 116835 words of memory out of 5000000
- 6272 multiletter control sequences out of 15000+600000
- 18542 words of font info for 46 fonts, out of 8000000 for 9000
+ 2839 strings out of 493304
+ 40119 string characters out of 6139871
+ 116867 words of memory out of 5000000
+ 6249 multiletter control sequences out of 15000+600000
+ 19653 words of font info for 46 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,7n,23p,564b,197s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,7n,23p,564b,203s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -611,14 +724,13 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/cour
-ier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on expt2.pdf (11 pages, 190288 bytes).
+ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on expt2.pdf (12 pages, 195437 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
